@@ -221,3 +221,36 @@ p {
     color: #fff;
 }
 
+
+
+/* Navbar Matérias */
+
+.navbar-custom {
+    background-color: #5B2C01;
+    height: 79px; 
+ }
+
+ /* Configurações Matérias */
+
+
+ .navbar-logo-topo {
+    padding-top: 20px; 
+}
+   
+
+.text-center-vertical {
+    display: flex;
+    align-items: center;
+}
+      
+    
+ .margin-top-20 {
+    margin-top: 30px; 
+}
+
+.margin-horizontal-20 {
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+       
+ 
