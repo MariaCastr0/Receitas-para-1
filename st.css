@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* TYPOGRAFIA */
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 50px;
+}
