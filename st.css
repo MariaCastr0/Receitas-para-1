@@ -163,3 +163,20 @@ p {
     transform: rotateX(90deg) translateY(-22px);
 }
 
+
+/* GERAL */
+
+.bg{
+    background: transparent;
+    transition: 0.2 ease;
+}
+
+.bg.scrolled{
+    background: #5B2C01;
+}
+
+#sobre, #busca, #sob, #ref, #sug, #categ, #blog, #newsletter, footer {
+    background: #ffffff;
+}
+
+
