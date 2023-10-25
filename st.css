@@ -76,3 +76,34 @@ p {
 }
 
 
+
+/* BOTÕES */
+
+.section-btn{
+    margin: 32px 0 0 0;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.section-btn a{
+    color: #fff;
+    font-weight: normal;
+    line-height: 45px;
+    perspective: 1000px;
+    border-radius: 5px;
+}
+
+.section-btn a span{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    padding: 2px 27px;
+    background: #5B2C01;
+    border-radius: 1px;
+    transition: transform 0.3s;
+    transform-origin: 50% 0;
+    transform-style: preserve-3d;
+    border-radius: 5px;
+}
