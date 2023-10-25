@@ -40,3 +40,30 @@ h4 {
     line-height: 28px;
 }
 
+
+.background-text {
+    background-color: #703206; 
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .background-texts {
+      font-size: 18px;
+      background-color: #5B2C01; 
+      padding: 10px;
+      display: inline-block;
+      border-radius: 5px;
+      color: #fff;
+    }
+  
+    .text-size {
+      font-size: 23px;
+      background-color: #fff; 
+      padding: 10px;
+      display: inline-block;
+      border-radius: 5px;
+      color: #000;
+    }
+  
