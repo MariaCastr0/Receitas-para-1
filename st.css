@@ -427,3 +427,73 @@ p {
     color: #fff;
 }
 
+/* NEWSLETTER */
+
+#newsletter {
+    background: url(../images/contact.png) 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#newsletter .form-control{
+    border: none;
+    box-shadow: none;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 9px;
+}
+
+#newsletter .form-control:focus {
+    border-color: #d9d9d9;
+}
+
+#newsletter input{
+    height: 48px;
+    line-height: 40px;
+}
+
+
+  /* AJUSTES - CARDS */ 
+
+
+  .cardi-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    max-width: 1165px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.cardi {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Mídia Query para dispositivos menores */
+@media (max-width: 768px) {
+    .cardi-container {
+        grid-template-columns: 1fr;
+    }
+}
